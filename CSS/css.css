@@ -1,0 +1,108 @@
+.button {
+  background-color: #29c4b7;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(24, 88, 83);
+  color: rgb(214, 255, 249);
+}
+
+header {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(337, 55%, 54%);
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+footer {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 30px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(337, 67%, 71%); /* color of the scroll thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff008c; /* color of the scroll thumb on hover */
+}
+
+h1 {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  text-align: left;
+  color: rgb(0, 0, 0);
+  background-color: #168077;
+}
+
+h4, h5, h6 {
+  text-align: left;
+  color: #ffffff;
+}
+
+h5 {
+  background-color: #168077;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+          
